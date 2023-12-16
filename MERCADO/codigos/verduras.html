@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Verduras</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            color: white;
+        }
+
+        img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 1;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 15px;
+            border-radius: 5px;
+            position: fixed;
+            top: 10px; /* Ajusta la distancia desde la parte superior */
+            left: 10px; /* Ajusta la distancia desde la izquierda */
+            z-index: 2; /* Establece un índice de apilamiento superior para el botón de volver */
+        }
+    </style>
+</head>
+<body>
+
+    <img src="C:\Users\HP\Downloads\Verduras pixel.png" alt="Imagen de Verduras">
+
+    <div class="content">
+        <!-- Contenido específico de verduras -->
+        <h1></h1>
+        <p></p>
+    </div>
+
+    <a href="index.html">Volver</a>
+
+</body>
+</html>
